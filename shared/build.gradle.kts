@@ -11,6 +11,8 @@ kotlin {
         binaries {
             framework {
                 baseName = "shared"
+                export("dev.icerock.moko:graphics:0.4.0")
+                transitiveExport = true
             }
         }
     }

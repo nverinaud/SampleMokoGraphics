@@ -7,7 +7,7 @@ func greet() -> String {
 
 struct ContentView: View {
     var body: some View {
-      Text(greet()).foregroundColor(Theme().primaryColor.toUIColor())
+      Text(greet()).foregroundColor(Color(Theme().primaryColor.toUIColor()))
     }
 }
 
